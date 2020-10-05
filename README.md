@@ -20,3 +20,6 @@ _In this problem we are given an empty bag with its maximum weight holding capac
 - ***0/1 Knapsack*** - It is a classical dp problem. Many biginner level problems are variation of this problem. In this we have only have two choices, either we include the item in Knapsack or we don't.
 
 - ***Unbounded Knapsack*** - It is similar to 0/1 Knapsack but in this we can include same item multiple number of times.
+
+solved classical knapsack problem using only recursion.
+---
