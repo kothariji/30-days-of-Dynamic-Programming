@@ -11,7 +11,7 @@ Simply cached Recusrion (Memoization) or in other words enhanced recursion.
 ```
 ##### _The main idea behind DP is to store the results of subproblems so that we can simply use results of these subproblems without re-computing them when needed in future. This idealogy saves a lot of time and make the solution optimized._
 ---
-### Day - 1
+## Day - 1
 #### Knapsack Problem: :pushpin::pushpin:
 _In this problem we are given an empty bag with its maximum weight holding capacity. Also we are given a list of items with there weight and profit values. We need to find out the maximum profit we can earn._
 #### Type of Knapsack Problems
