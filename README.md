@@ -21,5 +21,8 @@ _In this problem we are given an empty bag with its maximum weight holding capac
 
 - ***Unbounded Knapsack*** - It is similar to 0/1 Knapsack but in this we can include same item multiple number of times.
 
-solved classical knapsack problem using only recursion.
+
+```diff
+! solved a classical knapsack problem using only recursion.
+```
 ---
