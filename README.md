@@ -5,7 +5,7 @@
 
 # Dynamic Programming :rocket::rocket:
 
-##### Definition : :orange_book:
+### Definition : :orange_book:
 ```
 Simply cached Recusrion (Memoization) or in other words enhanced recursion.
 ```
