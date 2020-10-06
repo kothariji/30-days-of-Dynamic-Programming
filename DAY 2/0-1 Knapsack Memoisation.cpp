@@ -12,10 +12,10 @@ int knapsack(vector <int> weight, vector <int> value, int maxweight, int index)
 	if(dp[index][maxweight] == -1)
 	{
 		if(weight[index] <= maxweight)
-			dp[index][maxweight] =  max(value[index] + knapsack(weight, values, maxweight - weight[index], index-1), knapsack(weight, values, maxweight, index-1));
+			dp[index][maxweight] =  max(value[index] + knapsack(weight, value, maxweight - weight[index], index-1), knapsack(weight, value, maxweight, index-1));
 		
 		else
-			dp[index][maxweight] = knapsack(weight, values, maxweight, index-1);
+			dp[index][maxweight] = knapsack(weight, value, maxweight, index-1);
 	}
 	return dp[index][maxweight];
 }
@@ -42,5 +42,5 @@ int main()
 	cout<<"Enter maximum capacity of knapsack: ";
 	cin>>maxweight;
 
-	cout<<knapsack(weight, values, maxweight, n-1);
+	cout<<knapsack(weight, value, maxweight, n-1);
 }
