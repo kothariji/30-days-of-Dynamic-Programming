@@ -48,6 +48,7 @@ If in recursive function:
 |--------------|---------------- | --------------- |---------------|
  GEEKSFORGEEKS |[0 - 1 Knapsack Problem](https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem/0) | [View Solution](./DAY-2/0-1_Knapsack_Problem_(GEEKSFORGEEKS).cpp) | Easy |||
 <pre>
-<b>Important Tip</b> -  std::vector's at() function is similar to subscript operator [ ]. But when the performance is measured at() function is 3.1 times faster then subscript operator [ ].
+<b>Important Tip</b> -  std::vector's at() function is similar to subscript operator [ ]. But when the performance is measured at() function is 3.1 times faster then subscript operator [ ]. 
 </pre>
+<b> This costed me 29 submissions :persevere: :laughing:</b>
 ***
