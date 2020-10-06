@@ -11,7 +11,7 @@ Simply cached Recusrion (Memoization) or in other words enhanced recursion.
 ```
 ##### _The main idea behind DP is to store the results of subproblems so that we can simply use results of these subproblems without re-computing them when needed in future. This idealogy saves a lot of time and make the solution optimized._
 ---
-## Day - 1
+## Day - 1 :blue_book:
 #### Knapsack Problem: :pushpin::pushpin:
 _In this problem we are given an empty bag with its maximum weight holding capacity. Also we are given a list of items with there weight and profit values. We need to find out the maximum profit we can earn._
 #### Type of Knapsack Problems
@@ -26,3 +26,21 @@ _In this problem we are given an empty bag with its maximum weight holding capac
 ! solved a classical knapsack problem using only recursion.
 ```
 ---
+
+## Day - 2 :green_book:
+### Memosisation :pushpin::pushpin:
+_It is basically an **optimization technique** used to cache the results of subproblems so that we can use that results later on if required. **Memoization** ensures that a method doesn't run for the inputs whose results are previously calculated._
+
+The dimensions of the memoisation array/table deepends upon variables.
+If in recursive function:
+
+- 1 variable is changing on recursive call, we will create a linear vector/array. ***E.g.  Fibonacci series***
+- 2 variables are changing on recursive call, then we will use 2-D matrix to store results of sumproblems. ***E.g. Longest Common Subsequence***
+- and so on.....for 3, 4..n variables.
+
+#### _Generally we should initialise these matrices with -1 and later on we can check that if value of a particular cell is not  -1 then we will directly return that particular  cell value. else we will do a recursive call and set the cell value and finally return the cell value._
+
+```diff
++ solved a classical knapsack problem using memoisation technique.
+```
+***
