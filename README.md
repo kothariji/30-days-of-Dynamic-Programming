@@ -43,4 +43,8 @@ If in recursive function:
 ```diff
 + solved a classical knapsack problem using memoisation technique.
 ```
+### Problem solved
+| Title           |  Solution       | Difficulty    |
+|---------------- | --------------- |------------- |
+ [0 - 1 Knapsack Problem](https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem/0) | [View Solution](./DAY-2/0-1KnapsackMemoisation.cpp) | Easy |||
 ***
