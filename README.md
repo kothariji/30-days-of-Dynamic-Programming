@@ -57,7 +57,7 @@ But when the performance is measured at() function is 3.1 times faster then subs
 ---
 ## Day - 3 :ledger:
 #### Top - Down Approach: :pushpin::pushpin:
-_It is one of the most preferable methods in dynamic programming. It is faster than the ** memoization** method as it doesn't involve any recursive calls. In this method, we have an array/matrix and we start from the first cell and move down filling entries in each cell one by one._
+_It is one of the most preferable methods in dynamic programming. It is faster than the **memoization** method as it doesn't involve any recursive calls. In this method, we have an array/matrix and we start from the first cell and move down filling entries in each cell one by one._
 #### 2-Steps to create dp matrix. 
 - ***Step-1 Initialisation*** - It is similar to the base condition which we do in a recursive function. ***for eg.***
  ```
