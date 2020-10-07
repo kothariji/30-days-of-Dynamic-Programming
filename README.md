@@ -88,5 +88,5 @@ _It is one of the most preferable methods in dynamic programming. It is faster t
 we might get stack overflow on doing various recursive calls for large data.
 </pre>
 
-#### Though its a rare condition. :sweat_smile::sweat_smile:
+#### Though it's a rare condition. :sweat_smile::sweat_smile:
 ---
