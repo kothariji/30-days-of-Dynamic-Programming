@@ -87,5 +87,6 @@ _It is one of the most preferable methods in dynamic programming. It is faster t
 <b>Important Tip</b> -  The top-down approach is preferred over memoization because in the memoization technique 
 we might get stack overflow on doing various recursive calls for large data.
 </pre>
-<b> Though its a rare condition. :sweat_smile::sweat_smile:</b>
+
+#### Though its a rare condition. :sweat_smile::sweat_smile:
 ---
