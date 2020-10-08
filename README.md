@@ -13,7 +13,7 @@ Simply cached Recursion (Memoization) or in other words enhanced recursion.
 ##### _The main idea behind DP is to store the results of subproblems so that we can simply use the results of these subproblems without re-computing them when needed in the future. This idealogy saves a lot of time and makes the solution optimized._
 ---
 ## Day - 1 :blue_book:
-#### Knapsack Problem: :pushpin::pushpin:
+### Knapsack Problem: :pushpin::pushpin:
 _In this problem we are given an empty bag with its maximum weight holding capacity. Also, we are given a list of items with there weight and profit values. We need to find out the maximum profit we can earn._
 #### Type of Knapsack Problems
 - ***Fractional Knapsack*** - It is simply a greedy problem. In this, we can take fraction values. ***for eg. if we have space of 3 kg. left in a knapsack and we have an item of 6 kg that values 50 rs. , then we can take 50% of that item and we will gain a profit of 25 rs.***
