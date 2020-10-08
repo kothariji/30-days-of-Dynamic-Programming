@@ -104,7 +104,7 @@ _It is a variation of the knapsack problem in which we are given an array of non
 |--------------|---------------- | --------------- |---------------|
  SPOJ |[PARTY - Party Schedule](https://www.spoj.com/problems/PARTY/) | [View Solution](./DAY-4/PARTY-Party_Schedule(SPOJ).cpp) | Easy |||
  GEEKSFORGEEKS |[Subset Sum Problem](https://practice.geeksforgeeks.org/problems/subset-sum-problem2014/1) | [View Solution](./DAY-4/Subset_Sum_Problem(GEEKSFORGEEKS).cpp) | Medium |||
-  LEETCODE |[416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [View Solution](./DAY-4/Partition_Equal_Subset_Sum(leetcode).cpp) | Medium |||
+  LEETCODE |[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [View Solution](./DAY-4/Partition_Equal_Subset_Sum(LEETCODE).cpp) | Medium |||
 
 #### Finally DP started showing it's colors. :yellow_heart::blue_heart::purple_heart::green_heart::heart:
 ---
