@@ -1,3 +1,4 @@
+
 # 21-DAYS-PROGRAMMING-CHALLENGE-ACES
 ### CP is OP :heart:  Saying hi to DP! :fire::fire:
 ---
@@ -28,7 +29,7 @@ _In this problem we are given an empty bag with its maximum weight holding capac
 ---
 
 ## Day - 2 :green_book:
-### Memosisation :pushpin::pushpin:
+### Memosisation: Top - Down Approach :pushpin::pushpin:
 _It is an **optimization technique** used to cache the results of subproblems so that we can use that results later on if required. **Memoization** ensures that a method doesn't run for the inputs whose results are previously calculated._
 
 The dimensions of the memoization array/table depend upon variables.
@@ -56,7 +57,7 @@ But when the performance is measured at() function is 3.1 times faster then subs
 
 ---
 ## Day - 3 :ledger:
-#### Top - Down Approach: :pushpin::pushpin:
+### 1.  Tabulation:  Bottom-Up Approach :pushpin::pushpin:
 _It is one of the most preferable methods in dynamic programming. It is faster than the **memoization** method as it doesn't involve any recursive calls. In this method, we have an array/matrix and we start from the first cell and move down filling entries in each cell one by one._
 #### 2-Steps to create dp matrix. 
 - ***Step-1 Initialisation*** - It is similar to the base condition which we do in a recursive function. ***for eg.***
@@ -65,7 +66,7 @@ _It is one of the most preferable methods in dynamic programming. It is faster t
 	 if((index <0)|| (w <= 0))
 			return 0;
 
-//in top-down approach
+//in bottom-up approach
 	for(int i =0; i<=n; i++){
 			for(int j= 0; j<=w; j++){
 				if(i == 0 || j ==0)
@@ -74,17 +75,17 @@ _It is one of the most preferable methods in dynamic programming. It is faster t
 			}
  ```
 
-- ***Step-2 Iterative Function*** - We create an iterative function that is similar to the recursive call function. All the conditions will be the same in both the methods, the only difference is that in memoization we do recursive calls whereas in the top-down approach we look up for previous cells in the matrix, this makes ***top-down approach a faster approach.***
+- ***Step-2 Iterative Function*** - We create an iterative function that is similar to the recursive call function. All the conditions will be the same in both the methods, the only difference is that in memoization we do recursive calls whereas in the bottom-up approach we look up for previous cells in the matrix, this makes ***bottom-up approach a faster approach.***
 
 ```diff
-- solved the classical knapsack problem using top-down approach.
+- solved the classical knapsack problem using bottom-up approach.
 ```
 ### Problem solved
 |  Platform    | Title           |  Solution       | Difficulty    |
 |--------------|---------------- | --------------- |---------------|
  SPOJ |[KNAPSACK - The Knapsack Problem](https://www.spoj.com/problems/KNAPSACK/) | [View Solution](./DAY-3/KNAPSACK-The_Knapsack_Problem(SPOJ).cpp) | Easy |||
 <pre>
-<b>Important Tip</b> -  The top-down approach is preferred over memoization because in the memoization technique 
+<b>Important Tip</b> -  The bottom-up approach is preferred over memoization because in the memoization technique 
 we might get stack overflow on doing various recursive calls for large data.
 </pre>
 
