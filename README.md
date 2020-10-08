@@ -26,6 +26,7 @@ _In this problem we are given an empty bag with its maximum weight holding capac
 ```diff
 ! solved a classical knapsack problem using only recursion.
 ```
+#### It all started with Day-1 :fire::fire:
 ---
 
 ## Day - 2 :green_book:
