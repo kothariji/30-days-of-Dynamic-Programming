@@ -92,7 +92,7 @@ we might get stack overflow on doing various recursive calls for large data.
 
 #### Though it's a rare condition. :sweat_smile::sweat_smile:
 ---
-## Day - 3 :closed_book:
+## Day - 4 :closed_book:
 ### Solved: Subset Sum Problem :pushpin::pushpin:
 _It is a variation of the knapsack problem in which we are given an array of non-negative integers and a **required sum**. We need to find out that is it possible to create a subset of that array so that sum of elements of the subset equals the **required sum**._
 
