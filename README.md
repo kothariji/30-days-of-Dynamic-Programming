@@ -91,3 +91,18 @@ we might get stack overflow on doing various recursive calls for large data.
 
 #### Though it's a rare condition. :sweat_smile::sweat_smile:
 ---
+## Day - 3 :closed_book:
+### Solved: Subset Sum Problem :pushpin::pushpin:
+_It is a variation of the knapsack problem in which we are given an array of non-negative integers and a **required sum**. We need to find out that is it possible to create a subset of that array so that sum of elements of the subset equals the **required sum**._
+
+```diff
+@@ solved the subset sum problem @@
+```
+### Problem solved
+|  Platform    | Title           |  Solution       | Difficulty    |
+|--------------|---------------- | --------------- |---------------|
+ SPOJ |[PARTY - Party Schedule](https://www.spoj.com/problems/PARTY/) | [View Solution](./DAY-4/PARTY-Party_Schedule(SPOJ).cpp) | Easy |||
+ GEEKSFORGEEKS |[Subset Sum Problem](https://practice.geeksforgeeks.org/problems/subset-sum-problem2014/1) | [View Solution](./DAY-4/Subset_Sum_Problem(GEEKSFORGEEKS).cpp) | Medium |||
+
+#### Finally DP started showing it's colors. :yellow_heart::blue_heart::purple_heart::green_heart::heart:
+---
