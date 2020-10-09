@@ -12,7 +12,7 @@ int subset(int arr[],  int n, int sum)
     for(int i =0; i<n+1; i++)
         dp[i][0] = true;
     for(int i =1; i<sum+1; i++)
-        dp[0][1] = false;
+        dp[0][i] = false;
     
     for(int i =1; i<n+1; i++)
     {
@@ -45,7 +45,7 @@ int main()
 {
 	int arr[5] = {2, 3, 7,8,10};
 	for(int i = 1; i<= 15; i++)
-	cout<<i<<"  "<<subset(arr, 4, i)<<endl;
+	cout<<i<<"  "<<subset(arr, 5, i)<<endl;
 
 	return 0;	
 }
