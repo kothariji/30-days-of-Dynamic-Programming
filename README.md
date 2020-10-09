@@ -107,4 +107,16 @@ _It is a variation of the knapsack problem in which we are given an array of non
   LEETCODE |[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [View Solution](./DAY-4/Partition_Equal_Subset_Sum(LEETCODE).cpp) | Medium |||
 
 #### Finally DP started showing it's colors. :yellow_heart::blue_heart::purple_heart::green_heart::heart:
+
+---
+## Day - 5 :notebook:
+### Solved: Count of Subsets with Required Sum :pushpin::pushpin:
+_It is a slight variation of the *Subset Sum Problem* in which we are given an array of non-negative integers and a **required sum**. We need to find out the count of the total number of subsets of the given array whose sum equals the **required sum**._
+
+```diff
+! solved the Count of Subsets with Required Sum Problem
+```
+
+
+#### :walking: “I walk slowly, but never backwards.” :walking: - — Abraham Lincoln :pray: :pray:
 ---
