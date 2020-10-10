@@ -123,7 +123,7 @@ _It is a slight variation of the *Subset Sum Problem* in which we are given an a
 ---
 ## Day - 6  :orange_book:
 ### Solved: Minimum Sum Partition Problem :pushpin::pushpin:
-_Again its a variation of the *Subset Sum Problem*. The problem statement states that we are given an array with non-negative integers and our task is to divide the elements of that array into two subsets such that the absolute difference between their sums is minimum._
+_Again its a variation of the **Subset Sum Problem**. The problem statement states that we are given an array with non-negative integers and our task is to divide the elements of that array into two subsets such that the absolute difference between their sums is **minimum.**_
 
 ```diff
 + solved the subset sum problem
