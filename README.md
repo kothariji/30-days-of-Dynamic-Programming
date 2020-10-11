@@ -163,5 +163,5 @@ _This is a variation of **Minimum Sum Partition Problem interesting problem**. I
  INTERVIEW BIT |[Minimum Difference Subsets!](https://www.interviewbit.com/problems/minimum-difference-subsets/) | [View Solution](./DAY-7/Minimum_Difference_Subsets!(INTERVIEWBIT).cpp) | Hard |||
   LEETCODE |[Target Sum :rocket:](https://leetcode.com/problems/target-sum/) | [View Solution](./DAY-7/Target_Sum(LEETCODE).cpp) | Hard |||
   
-####  :yellow_heart:  7-Days Streak. :blue_heart: 7-Days of CP.  :purple_heart: 7-Days of DP :green_heart:
+####  :yellow_heart:  7-Days Streak. :blue_heart: 7-Days of CP.  :purple_heart: 7-Days of DP :green_heart: 7-Days of OP :heart:
 ---
