@@ -133,4 +133,35 @@ _Again its a variation of the **Subset Sum Problem**. The problem statement stat
 |--------------|---------------- | --------------- |---------------|
  GEEKSFORGEEKS |[Minimum sum partition](https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1) | [View Solution](./DAY-6/Minimum_sum_partition(GEEKSFORGEEKS).cpp) | Hard |||
 #### Some days are harder than others :confounded: :triangular_flag_on_post: :relieved:
+
+
+---
+## Day - 7  :blue_book:
+### Solved: Count of Subsets with required difference :pushpin::pushpin:
+_This is a variation of **Minimum Sum Partition Problem interesting problem**. In this, we are given an array with non-negative integers and our task is to divide the elements of that array into two subsets such that the absolute difference between their sums equals  **required difference.**_
+##### Two equations to solve the problem are:
+```cpp
+ s1 = sum of 1st subset
+ s2 = sum of 2nd subset
+ S = required difference
+ range = sum of entire array
+
+
+ s1 - s2 = S 			//equation 1
+ s1 + s2 = range		//equation 2
+
+ // on solving eq1 and eq2 we get
+ s1 = (range + S)/2
+```
+##### Target sum - It's an awesome problem. Must try:- https://leetcode.com/problems/target-sum/
+```diff
+- solved count of subsets with given difference
+```
+### Problem solved
+|  Platform    | Title           |  Solution       | Difficulty    |
+|--------------|---------------- | --------------- |---------------|
+ INTERVIEW BIT |[Minimum Difference Subsets!](https://www.interviewbit.com/problems/minimum-difference-subsets/) | [View Solution](./DAY-7/Minimum_Difference_Subsets!(INTERVIEWBIT).cpp) | Hard |||
+  LEETCODE |[Target Sum :rocket:](https://leetcode.com/problems/target-sum/) | [View Solution](./DAY-7/Target_Sum(LEETCODE).cpp) | Hard |||
+  
+####  :yellow_heart:  7-Days Streak. :blue_heart: 7-Days of CP.  :purple_heart: 7-Days of DP :green_heart:
 ---
