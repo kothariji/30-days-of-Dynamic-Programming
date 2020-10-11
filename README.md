@@ -116,8 +116,10 @@ _It is a slight variation of the *Subset Sum Problem* in which we are given an a
 ```diff
 ! solved the Count of Subsets with Required Sum Problem
 ```
-
-
+### Problem solved
+|  Platform    | Title           |  Solution       | Difficulty    |
+|--------------|---------------- | --------------- |---------------|
+ GEEKSFORGEEKS |[Perfect Sum Problem](https://practice.geeksforgeeks.org/problems/perfect-sum-problem5633/1) | [View Solution](./DAY-5/Perfect_Sum_Problem(GEEKSFORGEEKS).cpp) | Medium |||
 #### :walking: “I walk slowly, but never backwards.” :walking: - — Abraham Lincoln :pray: :pray:
 
 ---
