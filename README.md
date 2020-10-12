@@ -167,3 +167,27 @@ _This is a variation of **Minimum Sum Partition Problem interesting problem**. I
   
 ####  :yellow_heart:  7-Days Streak. :blue_heart: 7-Days of CP.  :purple_heart: 7-Days of DP :green_heart: 7-Days of OP :heart:
 ---
+## Day - 8  :green_book:
+### Solved: Unbounded Knapsack:pushpin::pushpin:
+_**Unbounded Knapsack Problems** are slightly different from **0/1 Knapsack Problems**. In this, we can include the same item multiple numbers of times inside the knapsack and our aim is to just maximize the profit._ 
+##### We just need to change one condition:
+```cpp
+//0-1 Knapsack
+if(weight[i-1] <= j)
+dp[i][j] = max((value[i-1] + dp[i-1][j-weight[i-1]]), dp[i-1][j]);
+
+// Unbounded Knapsack
+if(weight[i-1] <= j)
+dp[i][j] = max((value[i-1] + dp[i][j-weight[i-1]]), dp[i-1][j]);
+```
+```diff
+@@ solved Unbounded Knapsack Problem @@
+```
+### Problem solved
+|  Platform    | Title           |  Solution       | Difficulty    |
+|--------------|---------------- | --------------- |---------------|
+ HACKERRANK |[Knapsack](https://www.hackerrank.com/challenges/unbounded-knapsack/problem) | [View Solution](./DAY-8/Knapsack(HACKERRANK).cpp) | Medium |||
+  GEEKSFORGEEKS |[Knapsack with Duplicate Items](https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1) | [View Solution](./DAY-8/Knapsack_with_Duplicate_Items(GEEKSFORGEEKS).cpp) | Medium |||
+  
+####  Visited HackerRank after so Long ! Nostalgic :dizzy: :smile:
+---
