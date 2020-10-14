@@ -208,3 +208,18 @@ _**Problem Statement:** Given a rod of length **n** and an array of prices that 
   
 ####  Set Goals.  :star2:  Say Prayers. :pray:  Work Hard. :muscle:
 ---
+## Day - 10  :closed_book:
+### Solved: Coin Change Problem:moneybag: :moneybag:
+_**Problem Statement:** You are given a value N and array of coins. You need to find out the number of ways in which you can get value N from that coins. There is infinite supply of coins.(Unbounded Knapsack :wink:)_ 
+
+```diff
++ solved Rod Cutting Problem
+```
+### Problem solved
+|  Platform    | Title           |  Solution       | Difficulty    |
+|--------------|---------------- | --------------- |---------------|
+ GEEKSFORGEEKS |[Coin Change](https://practice.geeksforgeeks.org/problems/coin-change2448/1) | [View Solution](./DAY-10/Coin_Change(GEEKSFORGEEKS).cpp) | Medium |||
+  HACKERRANK |[The Coin Change Problem](https://www.hackerrank.com/challenges/coin-change/problem) | [View Solution](./DAY-10/The_Coin_Change_Problem(HACKERRANK).cpp) | Medium |||
+  
+#### Prove Them Wrong :wink: :wink:
+---
