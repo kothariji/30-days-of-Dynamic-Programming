@@ -48,7 +48,7 @@ If in recursive function:
 ### Problem solved
 |  Platform    | Title           |  Solution       | Difficulty    |
 |--------------|---------------- | --------------- |---------------|
- GEEKSFORGEEKS |[0 - 1 Knapsack Problem](https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem/0) | [View Solution](./DAY-2/0-1_Knapsack_Problem_(GEEKSFORGEEKS).cpp) | Easy |||
+ GEEKSFORGEEKS |[0 - 1 Knapsack Problem](https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem/0) | [View Solution](./DAY-02/0-1_Knapsack_Problem_(GEEKSFORGEEKS).cpp) | Easy |||
 <pre>
 <b>Important Tip</b> -  std::vector's at() function is similar to subscript operator [ ].
 But when the performance is measured at() function is 3.1 times faster then subscript operator [ ]. 
@@ -84,7 +84,7 @@ _It is one of the most preferable methods in dynamic programming. It is faster t
 ### Problem solved
 |  Platform    | Title           |  Solution       | Difficulty    |
 |--------------|---------------- | --------------- |---------------|
- SPOJ |[KNAPSACK - The Knapsack Problem](https://www.spoj.com/problems/KNAPSACK/) | [View Solution](./DAY-3/KNAPSACK-The_Knapsack_Problem(SPOJ).cpp) | Easy |||
+ SPOJ |[KNAPSACK - The Knapsack Problem](https://www.spoj.com/problems/KNAPSACK/) | [View Solution](./DAY-03/KNAPSACK-The_Knapsack_Problem(SPOJ).cpp) | Easy |||
 <pre>
 <b>Important Tip</b> -  The bottom-up approach is preferred over memoization because in the memoization technique 
 we might get stack overflow on doing various recursive calls for large data.
@@ -102,9 +102,9 @@ _It is a variation of the knapsack problem in which we are given an array of non
 ### Problem solved
 |  Platform    | Title           |  Solution       | Difficulty    |
 |--------------|---------------- | --------------- |---------------|
- SPOJ |[PARTY - Party Schedule](https://www.spoj.com/problems/PARTY/) | [View Solution](./DAY-4/PARTY-Party_Schedule(SPOJ).cpp) | Easy |||
- GEEKSFORGEEKS |[Subset Sum Problem](https://practice.geeksforgeeks.org/problems/subset-sum-problem2014/1) | [View Solution](./DAY-4/Subset_Sum_Problem(GEEKSFORGEEKS).cpp) | Medium |||
-  LEETCODE |[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [View Solution](./DAY-4/Partition_Equal_Subset_Sum(LEETCODE).cpp) | Medium |||
+ SPOJ |[PARTY - Party Schedule](https://www.spoj.com/problems/PARTY/) | [View Solution](./DAY-04/PARTY-Party_Schedule(SPOJ).cpp) | Easy |||
+ GEEKSFORGEEKS |[Subset Sum Problem](https://practice.geeksforgeeks.org/problems/subset-sum-problem2014/1) | [View Solution](./DAY-04/Subset_Sum_Problem(GEEKSFORGEEKS).cpp) | Medium |||
+  LEETCODE |[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [View Solution](./DAY-04/Partition_Equal_Subset_Sum(LEETCODE).cpp) | Medium |||
 
 #### Finally DP started showing it's colors. :yellow_heart::blue_heart::purple_heart::green_heart::heart:
 
@@ -119,7 +119,7 @@ _It is a slight variation of the *Subset Sum Problem* in which we are given an a
 ### Problem solved
 |  Platform    | Title           |  Solution       | Difficulty    |
 |--------------|---------------- | --------------- |---------------|
- GEEKSFORGEEKS |[Perfect Sum Problem](https://practice.geeksforgeeks.org/problems/perfect-sum-problem5633/1) | [View Solution](./DAY-5/Perfect_Sum_Problem(GEEKSFORGEEKS).cpp) | Medium |||
+ GEEKSFORGEEKS |[Perfect Sum Problem](https://practice.geeksforgeeks.org/problems/perfect-sum-problem5633/1) | [View Solution](./DAY-05/Perfect_Sum_Problem(GEEKSFORGEEKS).cpp) | Medium |||
 #### :walking: “I walk slowly, but never backwards.” :walking: - — Abraham Lincoln :pray: :pray:
 
 ---
@@ -133,7 +133,7 @@ _Again its a variation of the **Subset Sum Problem**. The problem statement stat
 ### Problem solved
 |  Platform    | Title           |  Solution       | Difficulty    |
 |--------------|---------------- | --------------- |---------------|
- GEEKSFORGEEKS |[Minimum sum partition](https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1) | [View Solution](./DAY-6/Minimum_sum_partition(GEEKSFORGEEKS).cpp) | Hard |||
+ GEEKSFORGEEKS |[Minimum sum partition](https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1) | [View Solution](./DAY-06/Minimum_sum_partition(GEEKSFORGEEKS).cpp) | Hard |||
 #### Some days are harder than others :confounded: :triangular_flag_on_post: :relieved:
 
 
@@ -162,8 +162,8 @@ _This is a variation of **Minimum Sum Partition Problem interesting problem**. I
 ### Problem solved
 |  Platform    | Title           |  Solution       | Difficulty    |
 |--------------|---------------- | --------------- |---------------|
- INTERVIEW BIT |[Minimum Difference Subsets!](https://www.interviewbit.com/problems/minimum-difference-subsets/) | [View Solution](./DAY-7/Minimum_Difference_Subsets!(INTERVIEWBIT).cpp) | Hard |||
-  LEETCODE |[Target Sum :rocket:](https://leetcode.com/problems/target-sum/) | [View Solution](./DAY-7/Target_Sum(LEETCODE).cpp) | Hard |||
+ INTERVIEW BIT |[Minimum Difference Subsets!](https://www.interviewbit.com/problems/minimum-difference-subsets/) | [View Solution](./DAY-07/Minimum_Difference_Subsets!(INTERVIEWBIT).cpp) | Hard |||
+  LEETCODE |[Target Sum :rocket:](https://leetcode.com/problems/target-sum/) | [View Solution](./DAY-07/Target_Sum(LEETCODE).cpp) | Hard |||
   
 ####  :yellow_heart:  7-Days Streak. :blue_heart: 7-Days of CP.  :purple_heart: 7-Days of DP :green_heart: 7-Days of OP :heart:
 ---
@@ -186,8 +186,8 @@ dp[i][j] = max((value[i-1] + dp[i][j-weight[i-1]]), dp[i-1][j]);
 ### Problem solved
 |  Platform    | Title           |  Solution       | Difficulty    |
 |--------------|---------------- | --------------- |---------------|
- HACKERRANK |[Knapsack](https://www.hackerrank.com/challenges/unbounded-knapsack/problem) | [View Solution](./DAY-8/Knapsack(HACKERRANK).cpp) | Medium |||
-  GEEKSFORGEEKS |[Knapsack with Duplicate Items](https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1) | [View Solution](./DAY-8/Knapsack_with_Duplicate_Items(GEEKSFORGEEKS).cpp) | Medium |||
+ HACKERRANK |[Knapsack](https://www.hackerrank.com/challenges/unbounded-knapsack/problem) | [View Solution](./DAY-08/Knapsack(HACKERRANK).cpp) | Medium |||
+  GEEKSFORGEEKS |[Knapsack with Duplicate Items](https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1) | [View Solution](./DAY-08/Knapsack_with_Duplicate_Items(GEEKSFORGEEKS).cpp) | Medium |||
   
 ####  Visited HackerRank after so Long ! Nostalgic :dizzy: :smile:
 ---
@@ -203,8 +203,8 @@ _**Problem Statement:** Given a rod of length **n** and an array of prices that 
 ### Problem solved
 |  Platform    | Title           |  Solution       | Difficulty    |
 |--------------|---------------- | --------------- |---------------|
- GEEKSFORGEEKS |[Reach a given score](https://practice.geeksforgeeks.org/problems/reach-a-given-score/0) | [View Solution](./DAY-9/Reach_a_given_score(GEEKSFORGEEKS).cpp) | Easy |||
-  GEEKSFORGEEKS |[Rod Cutting](https://practice.geeksforgeeks.org/problems/rod-cutting/0/?category) | [View Solution](./DAY-9/Rod_Cutting(GEEKSFORGEEKS).cpp) | Easy |||
+ GEEKSFORGEEKS |[Reach a given score](https://practice.geeksforgeeks.org/problems/reach-a-given-score/0) | [View Solution](./DAY-09/Reach_a_given_score(GEEKSFORGEEKS).cpp) | Easy |||
+  GEEKSFORGEEKS |[Rod Cutting](https://practice.geeksforgeeks.org/problems/rod-cutting/0/?category) | [View Solution](./DAY-09/Rod_Cutting(GEEKSFORGEEKS).cpp) | Easy |||
   
 ####  Set Goals.  :star2:  Say Prayers. :pray:  Work Hard. :muscle:
 ---
