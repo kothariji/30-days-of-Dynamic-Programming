@@ -195,7 +195,6 @@ dp[i][j] = max((value[i-1] + dp[i][j-weight[i-1]]), dp[i-1][j]);
 ## Day - 9  :ledger:
 ### Solved: Rod Cutting Problem:pushpin::pushpin:
 _**Problem Statement:** Given a rod of length **n** and an array of prices that contains prices of all pieces of size ranging from **1 to  n**. Determine the maximum value obtainable by cutting up the rod and selling the pieces._ 
-##### We just need to change one condition:
 
 ```diff
 ! solved Rod Cutting Problem
