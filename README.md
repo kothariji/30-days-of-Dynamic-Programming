@@ -221,4 +221,35 @@ _**Problem Statement:** You are given a value N and array of coins. You need to 
   HACKERRANK |[The Coin Change Problem](https://www.hackerrank.com/challenges/coin-change/problem) | [View Solution](./DAY-10/The_Coin_Change_Problem(HACKERRANK).cpp) | Medium |||
   
 #### Prove Them Wrong :wink: :wink:
+
+
+---
+## Day - 11  :notebook:
+### Solved: Maximize The Cut Segments Problem :pushpin: :pushpin:
+ _**Problem Statement:** Given an integer **N** denoting the Length of a line segment. you need to cut the line segment in such a way that the cut length of a line segment each time is integer either **x**, **y**, or **z**. and after performing all cutting operations the total number of cut segments must be maximum._ 
+
+```diff
+- solved Coin Change 2 Problem
+```
+### Problem solved
+|  Platform    | Title           |  Solution       | Difficulty    |
+|--------------|---------------- | --------------- |---------------|
+ GEEKSFORGEEKS |[Maximize The Cut Segments](https://practice.geeksforgeeks.org/problems/cutted-segments/0) | [View Solution](./DAY-11/Maximize_The_Cut_Segments(GEEKSFORGEEKS).cpp) | Easy |||
+  LEETCODE |[Coin Change](https://leetcode.com/problems/coin-change/) | [View Solution](./DAY-11/Coin_Change(LEETCODE).cpp) | Medium |||
+  GEEKSFORGEEKS |[Number of Coins](https://practice.geeksforgeeks.org/problems/number-of-coins1824/1) | [View Solution](./DAY-11/Number_of_Coins(GEEKSFORGEEKS).cpp) | Medium |||
+  <pre>
+<b>Important Tip</b> -  This is a unique problem of Knapsack Family. 
+In this, we have to initialize 2nd row as well.
+</pre>
+```cpp
+for(int i =1; i<amount+1;i++)
+{
+	if(i%coins[0] == 0)
+		dp[1][i] = i/coins[0];
+	else
+		dp[1][i] = INT_MAX -1;
+}
+```
+
+#### Finally, struggled for 3 days to solve Maximize The Cut Segments  :relieved: :relieved:
 ---
