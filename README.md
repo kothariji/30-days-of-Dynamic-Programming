@@ -219,6 +219,7 @@ _**Problem Statement:** You are given a value N and array of coins. You need to 
 |--------------|---------------- | --------------- |---------------|
  GEEKSFORGEEKS |[Coin Change](https://practice.geeksforgeeks.org/problems/coin-change2448/1) | [View Solution](./DAY-10/Coin_Change(GEEKSFORGEEKS).cpp) | Medium |||
   HACKERRANK |[The Coin Change Problem](https://www.hackerrank.com/challenges/coin-change/problem) | [View Solution](./DAY-10/The_Coin_Change_Problem(HACKERRANK).cpp) | Medium |||
+  LEETCODE |[Coin Change 2](https://leetcode.com/problems/coin-change-2/) | [View Solution](./DAY-11/Coin_Change_2(LEETCODE).cpp) | Medium |||
   
 #### Prove Them Wrong :wink: :wink:
 
