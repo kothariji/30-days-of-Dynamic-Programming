@@ -254,3 +254,15 @@ for(int i =1; i<amount+1;i++)
 
 #### Finally, struggled for 3 days to solve Maximize The Cut Segments  :relieved: :relieved:
 ---
+
+## Day - 12  :orange_book:
+### Longest Common Subsequence :pushpin: :pushpin:
+ _**Problem Statement:** Given two strings  **s1** and **s2**, find the length of the longest subsequence present in both of them. A subsequence is a sequence that appears in the same relative order, but not necessarily contiguous._ 
+
+```diff
+@@ solved Longest Common Subsequence using Recursion @@
+```
+The longest common subsequence problem is a classic computer science problem, the basis of data comparison programs such as the diff utility, and has applications in computational linguistics and bioinformatics. :rocket::rocket::rocket:
+
+#### Believe me! You are awesome! :blush:
+---
