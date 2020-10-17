@@ -266,3 +266,21 @@ The longest common subsequence problem is a classic computer science problem, th
 
 #### Believe me! You are awesome! :blush:
 ---
+
+## Day - 13  :blue_book:
+### Solved: # Longest common subsequence Memoization :pushpin: :pushpin:
+Did the LCS problem using the Bottom-up approach(Memoisation). 
+
+```diff
+! solved Longest Common Subsequence using Memoization
+```
+### Problem solved
+|  Platform    | Title           |  Solution       | Difficulty    |
+|--------------|---------------- | --------------- |---------------|
+ GEEKSFORGEEKS |[Longest Common Subsequence](https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0) | [View Solution](./DAY-13/Longest_Common_Subsequence(GEEKSFORGEEKS).cpp) | Medium |||
+ 
+  
+#### It was the most challenging day to maintain streak :disappointed: :disappointed:
+
+
+---
