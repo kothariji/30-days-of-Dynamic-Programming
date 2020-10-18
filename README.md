@@ -282,5 +282,21 @@ Did the LCS problem using the Bottom-up approach(Memoisation).
   
 #### It was the most challenging day to maintain streak :disappointed: :disappointed:
 
+---
+
+## Day - 14  :green_book:
+### Solved: # Longest common subsequence Tabulation :pushpin: :pushpin:
+Did the LCS problem using the Top-Down approach(Tabulation ). 
+
+```diff
++ solved Longest Common Subsequence using Tabulation. 
+```
+### Problem solved
+|  Platform    | Title           |  Solution       | Difficulty    |
+|--------------|---------------- | --------------- |---------------|
+ LEETCODE|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [View Solution](./DAY-14/Longest_Common_Subsequence(LEETCODE).cpp) | Medium |||
+ 
+  
+#### Be Savage. Not Average :fire: :wink: :boom:
 
 ---
