@@ -300,3 +300,26 @@ Did the LCS problem using the Top-Down approach(Tabulation ).
 #### Be Savage. Not Average :fire: :wink: :boom:
 
 ---
+
+## Day - 15  :ledger:
+### Solved:  Longest Common Substring :pushpin: :pushpin:
+
+_**Problem Statement:** Given two strings **s1** and **s2**. The task is to find the length of the **longest common substring.**_ 
+
+#### Subarray vs Substring vs Subsequence
+- _A **subarray** is a contiguous sequence of elements within an array. For example, the subarrays of the array `{1, 2, 3}` would be `{1}`, `{2}`, `{1, 2}`, `{2, 3}`, `{1, 2, 3}`, `{}`._
+- _A **substring** is exactly the same thing as a subarray but in the context of strings. For example, the substrings of the string `"dhruv"` would be `"d"`, `"dh"`, `"ru"`, `"uv"`, `"hruv"`, `"hru"`, `"dhru"`, `"ruv"`, `"hr"`,  `""`, etc._
+- _A  **subsequence** is a sequence that can be derived from another sequence by deleting some elements without changing the order of the remaining elements. For example, the subsequenceof the string `"dhruv"` would be `"d"`, `"du"`, `"rv"`, `"dhv"`, `"hrv"`, `"drv"`, `"dhru"`, `"dv"`, `"v"`,  `""`, etc._
+
+```diff
+- solved the Longest Common Substring.
+```
+### Problem solved
+|  Platform    | Title           |  Solution       | Difficulty    |
+|--------------|---------------- | --------------- |---------------|
+ LEETCODE|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [View Solution](./DAY-15/Maximum_Length_of_Repeated_Subarray(LEETCODE).cpp) | Medium |||
+ GEEKSFORGEEKS|[Longest Common Substring](https://practice.geeksforgeeks.org/problems/longest-common-substring/0) | [View Solution](./DAY-15/Longest_Common_Substring(GEEKSFORGEEKS).cpp) | Medium ||| 
+  
+#### Let the streak going. Don't give a `<br />` :laughing: :laughing:
+
+---
