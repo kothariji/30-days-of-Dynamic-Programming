@@ -321,5 +321,42 @@ _**Problem Statement:** Given two strings **s1** and **s2**. The task is to find
  GEEKSFORGEEKS|[Longest Common Substring](https://practice.geeksforgeeks.org/problems/longest-common-substring/0) | [View Solution](./DAY-15/Longest_Common_Substring(GEEKSFORGEEKS).cpp) | Medium ||| 
   
 #### Let the streak going. Don't give a `<br />` :laughing: :laughing:
-
 ---
+## Day - 16 :closed_book:
+### Solved:  Printing LCS :pushpin: :pushpin:
+
+_**Problem Statement:** Given two strings  **s1** and **s2**, print the longest subsequence present in both of them._ 
+It's a unique question as in this question we need to traverse back into our DP array and check for positions where characters are matching
+```cpp
+string s1 = "coding";
+string s2 = "cubing";
+--------------------------
+dp array 
+    c o d i n g
+   0 0 0 0 0 0 0 
+    \
+c  0 1 1 1 1 1 1
+     | 
+u  0 1 1 1 1 1 1
+     | 
+b  0 1-1-1 1 1 1
+          \ 
+i  0 1 1 1 2 2 2
+            \
+n  0 1 1 1 2 3 3
+              \ 
+g  0 1 1 1 2 3 4
+
+output => cing
+```
+
+```diff
+@@ solved the Printing LCS. @@
+```
+### Problem solved
+|  Platform    | Title           |  Solution       | Difficulty    |
+|--------------|---------------- | --------------- |---------------|
+ HACKERRANK|[The Longest Common Subsequence](https://www.hackerrank.com/challenges/dynamic-programming-classics-the-longest-common-subsequence/problem) | [View Solution](./DAY-16/The_Longest_Common_Subsequence(HACKERRANK).cpp) | Medium |||
+  
+#### I'd Rate My Programming Puns C++ :smirk: :smirk:
+
