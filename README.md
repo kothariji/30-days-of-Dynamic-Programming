@@ -332,7 +332,7 @@ string s1 = "coding";
 string s2 = "cubing";
 --------------------------
 dp array 
-    c o d i n g
+     c o d i n g
    0 0 0 0 0 0 0 
     \
 c  0 1 1 1 1 1 1
