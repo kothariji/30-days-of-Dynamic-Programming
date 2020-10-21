@@ -360,3 +360,20 @@ output => cing
   
 #### I'd Rate My Programming Puns C++ :smirk: :smirk:
 
+---
+## Day - 17 :notebook:
+### Solved:  Shortest Common Supersequence :pushpin: :pushpin:
+
+_**Problem Statement:** Given two strings **str1** and **str2**, find the length of the smallest string which has both, **str1** and **str2** as its sub-sequences._ 
+
+
+```diff
+! solved Shortest Common Supersequence. 
+```
+### Problem solved
+|  Platform    | Title           |  Solution       | Difficulty    |
+|--------------|---------------- | --------------- |---------------|
+ GEEKSFORGEEKS |[Shortest Common Supersequence](https://practice.geeksforgeeks.org/problems/shortest-common-supersequence/0#) | [View Solution](./DAY-17/Shortest_Common_Supersequence(GEEKSFORGEEKS).cpp) | Easy|||
+  
+#### A rabbit aims for the moon  :confused: 
+
