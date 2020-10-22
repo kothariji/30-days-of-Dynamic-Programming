@@ -377,3 +377,21 @@ _**Problem Statement:** Given two strings **str1** and **str2**, find the length
   
 #### A rabbit aims for the moon  :confused: 
 
+
+---
+## Day - 18 :orange_book:
+### Solved:  Minimum Number of Deletions and Insertions :pushpin: :pushpin:
+
+_**Problem Statement:** Given two strings **str1** and **str2**. Your task is to convert **str1** to **str2**. You can only perform two types of operations that are **remove** or **insert**. Find the minimum number of operations required to convert **str1**  into **str2**._ 
+
+
+```diff
++ solved Minimum Number of Deletions and Insertions. It's a simpler version of classical Edit Distance Problem 
+```
+### Problem solved
+|  Platform    | Title           |  Solution       | Difficulty    |
+|--------------|---------------- | --------------- |---------------|
+ GEEKSFORGEEKS |[Minimum number of deletions and insertions](https://practice.geeksforgeeks.org/problems/minimum-number-of-deletions-and-insertions0209/1) | [View Solution](./DAY-18/Minimum_number_of_deletions_and_insertions(GEEKSFORGEEKS).cpp) | Easy|||
+  
+#### Please Don't Let Your Dreams Die :pray: :pray: 
+
