@@ -395,3 +395,23 @@ _**Problem Statement:** Given two strings **str1** and **str2**. Your task is to
   
 #### Please Don't Let Your Dreams Die :pray: :pray: 
 
+
+---
+## Day - 19 :blue_book:
+### Solved:  Longest Palindromic Subsequence :pushpin: :pushpin:
+
+_**Problem Statement:** Given a string **str1**. Your task is to find the Longest Palindromic Subsequence of that string **s1**.._ 
+
+
+```diff
+- solved Longest Palindromic Subsequence. 
+```
+### Problem solved
+|  Platform    | Title           |  Solution       | Difficulty    |
+|--------------|---------------- | --------------- |---------------|
+ GEEKSFORGEEKS |[Longest Palindromic Subsequence](https://practice.geeksforgeeks.org/problems/longest-palindromic-subsequence/0#) | [View Solution](./DAY-19/Longest_Palindromic_Subsequence(GEEKSFORGEEKS).cpp) | Easy|||
+  LEETCODE |[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | [View Solution](./DAY-19/Longest_Palindromic_Subsequence(LEETCODE).cpp) | Medium|||
+   INTERVIEWBIT |[Longest Palindromic Subsequence](https://www.interviewbit.com/problems/longest-palindromic-subsequence/) | [View Solution](./DAY-19/Longest_Palindromic_Subsequence(INTERVIEWBIT).cpp) | Medium|||
+  
+#### Be Different.  Be Awesome. :wink: :dizzy: 
+
