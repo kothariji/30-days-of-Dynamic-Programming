@@ -415,3 +415,20 @@ _**Problem Statement:** Given a string **str1**. Your task is to find the Longes
   
 #### Be Different.  Be Awesome. :wink: :dizzy: 
 
+
+---
+## Day - 20 :green_book:
+### Solved: Minimum Deletions to make string Palindromic :pushpin: :pushpin:
+
+_**Problem Statement:** Given a string of **s1**. Your task is to remove or delete minimum number of characters from the string so that the resultant string is palindrome._ 
+
+
+```diff
+- solved Minimum Deletions to make string Palindromic.
+```
+### Problem solved
+|  Platform    | Title           |  Solution       | Difficulty    |
+|--------------|---------------- | --------------- |---------------|
+ GEEKSFORGEEKS |[Minimum Deletions](https://practice.geeksforgeeks.org/problems/minimum-deletitions/0) | [View Solution](./DAY-20/Minimum_Deletions(GEEKSFORGEEKS).cpp) | Easy|||
+  
+#### Stay Patient. Trust your journey. :relieved: :round_pushpin: 
