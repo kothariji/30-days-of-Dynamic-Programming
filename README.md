@@ -424,7 +424,7 @@ _**Problem Statement:** Given a string of **s1**. Your task is to remove or dele
 
 
 ```diff
-- solved Minimum Deletions to make string Palindromic.
+@@ solved Minimum Deletions to make string Palindromic. @@
 ```
 ### Problem solved
 |  Platform    | Title           |  Solution       | Difficulty    |
