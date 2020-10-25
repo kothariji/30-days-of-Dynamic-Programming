@@ -415,7 +415,6 @@ _**Problem Statement:** Given a string **str1**. Your task is to find the Longes
   
 #### Be Different.  Be Awesome. :wink: :dizzy: 
 
-
 ---
 ## Day - 20 :green_book:
 ### Solved: Minimum Deletions to make string Palindromic :pushpin: :pushpin:
@@ -432,3 +431,21 @@ _**Problem Statement:** Given a string of **s1**. Your task is to remove or dele
  GEEKSFORGEEKS |[Minimum Deletions](https://practice.geeksforgeeks.org/problems/minimum-deletitions/0) | [View Solution](./DAY-20/Minimum_Deletions(GEEKSFORGEEKS).cpp) | Easy|||
   
 #### Stay Patient. Trust your journey. :relieved: :round_pushpin: 
+
+---
+## Day - 21 :ledger:
+### Solved: Printing Shortest Common Supersequence :pushpin: :pushpin:
+
+_**Problem Statement:** Given two strings **str1** and **str2**, print the smallest string which has both, **str1** and **str2** as its sub-sequences._ 
+
+
+```diff
+! solved Printing Shortest Common Supersequence.
+```
+### Problem solved
+|  Platform    | Title           |  Solution       | Difficulty    |
+|--------------|---------------- | --------------- |---------------|
+ LEETCODE |[Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/) | [View Solution](./DAY-21/Shortest_Common_Supersequence(LEETCODE).cpp) | Hard|||
+  
+#### :yellow_heart:  21-Days Streak. :blue_heart: 21-Days of CP.  :purple_heart: 21-Days of DP :green_heart: 21-Days of OP :heart:
+
