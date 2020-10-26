@@ -449,3 +449,18 @@ _**Problem Statement:** Given two strings **str1** and **str2**, print the small
   
 #### :yellow_heart:  21-Days Streak. :blue_heart: 21-Days of CP.  :purple_heart: 21-Days of DP :green_heart: 21-Days of OP :heart:
 
+---
+## Day - 22 :closed_book:
+### Solved: Longest Repeating Subsequence :pushpin: :pushpin:
+
+_**Problem Statement:** Given a string  **s**, find the length of the longest repeating SubSequence such that the two subsequences don’t have the same string character in the same position, i.e., any i’th character in the two subsequences shouldn’t have the same index in the original string._ 
+```diff
++ solved Longest Repeating Subsequence.
+```
+### Problem solved
+|  Platform    | Title           |  Solution       | Difficulty    |
+|--------------|---------------- | --------------- |---------------|
+ GEEKSFORGEEKS |[Longest Repeating Subsequence](https://practice.geeksforgeeks.org/problems/longest-repeating-subsequence/0#) | [View Solution](./DAY-22/Longest_Repeating_Subsequence(GEEKSFORGEEKS).cpp) | Easy|||
+  INTERVIEWBIT|[Repeating Sub-Sequence](https://practice.geeksforgeeks.org/problems/longest-repeating-subsequence/0#) | [View Solution](./DAY-22/Repeating_Sub-Sequence(INTERVIEWBIT).cpp) | Medium|||
+  
+#### Hey ! We are still at Day-0!  :relieved: :relieved:
