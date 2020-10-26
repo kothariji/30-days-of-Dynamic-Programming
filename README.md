@@ -461,6 +461,6 @@ _**Problem Statement:** Given a string  **s**, find the length of the longest re
 |  Platform    | Title           |  Solution       | Difficulty    |
 |--------------|---------------- | --------------- |---------------|
  GEEKSFORGEEKS |[Longest Repeating Subsequence](https://practice.geeksforgeeks.org/problems/longest-repeating-subsequence/0#) | [View Solution](./DAY-22/Longest_Repeating_Subsequence(GEEKSFORGEEKS).cpp) | Easy|||
-  INTERVIEWBIT|[Repeating Sub-Sequence](https://practice.geeksforgeeks.org/problems/longest-repeating-subsequence/0#) | [View Solution](./DAY-22/Repeating_Sub-Sequence(INTERVIEWBIT).cpp) | Medium|||
+  INTERVIEWBIT|[Repeating Sub-Sequence](https://www.interviewbit.com/problems/repeating-subsequence/) | [View Solution](./DAY-22/Repeating_Sub-Sequence(INTERVIEWBIT).cpp) | Medium|||
   
 #### Hey ! We are still at Day-0!  :relieved: :relieved:
