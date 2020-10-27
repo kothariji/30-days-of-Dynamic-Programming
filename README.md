@@ -464,3 +464,28 @@ _**Problem Statement:** Given a string  **s**, find the length of the longest re
   INTERVIEWBIT|[Repeating Sub-Sequence](https://www.interviewbit.com/problems/repeating-subsequence/) | [View Solution](./DAY-22/Repeating_Sub-Sequence(INTERVIEWBIT).cpp) | Medium|||
   
 #### Hey ! We are still at Day-0!  :relieved: :relieved:
+
+---
+## Day - 23  :notebook:
+### Solved: Is Subsequence ? :pushpin: :pushpin:
+ _**Problem Statement:** Given two strings **str1** and  **str2**, check if **str1** is subsequence of **str2**.._ 
+
+```diff
+- solved Is Subsequence ?
+```
+
+  <pre>
+<b>Important Tip</b> -  This question can be solved in O(n) time complexity without DP also. But still DP  is Awesome.
+</pre>
+```cpp
+Approach: Simpply we can apply LCS on both str1 and str2, 
+and then we can check that the Length of LCS is equals to s1 or not.
+
+if(dp[n][m] == s1.length())
+	return true;
+else
+	return false;
+```
+
+#### LIVE :dizzy:  LAUGH :laughing: CODE :computer:
+
