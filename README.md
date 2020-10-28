@@ -495,7 +495,7 @@ else
 
 _**Problem Statement:** Given a string  **s**, find the minimum number of insertion operations you could perform on the string to make the string palindromic._ 
 ```diff
-+ solved Minimum Insertion Steps to Make a String Palindrome.
+@@ solved Minimum Insertion Steps to Make a String Palindrome. @@
 ```
 ### Problem solved
 |  Platform    | Title           |  Solution       | Difficulty    |
