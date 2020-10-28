@@ -489,3 +489,21 @@ else
 
 #### LIVE :dizzy:  LAUGH :laughing: CODE :computer:
 
+---
+## Day - 24 :orange_book:
+### Solved: Minimum Insertion Steps to Make a String Palindrome :pushpin: :pushpin:
+
+_**Problem Statement:** Given a string  **s**, find the minimum number of insertion operations you could perform on the string to make the string palindromic._ 
+```diff
++ solved Minimum Insertion Steps to Make a String Palindrome.
+```
+### Problem solved
+|  Platform    | Title           |  Solution       | Difficulty    |
+|--------------|---------------- | --------------- |---------------|
+ GEEKSFORGEEKS |[Form a palindrome](https://practice.geeksforgeeks.org/problems/form-a-palindrome/0) | [View Solution](./DAY-24/Form_a_palindrome(GEEKSFORGEEKS).cpp) | Medium|||
+ LEETCODE|[Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) | [View Solution](./DAY-24/Minimum_Insertion_Steps_to_Make_a_String_Palindrome(LEETCODE).cpp) | Hard|||
+  SPOJ|[IOIPALIN - Palindrome 2000](https://www.spoj.com/problems/IOIPALIN/) | [View Solution](./DAY-24/Palindrome_2000(SPOJ).cpp) | Medium|||
+  
+#### Its Okay ! Try Again  :muscle: :angel:
+
+---
