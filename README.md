@@ -1,10 +1,10 @@
 
-# 21-DAYS-PROGRAMMING-CHALLENGE-ACES
+# Dynamic Programming :rocket::rocket:
 ### CP is OP :heart:  Saying hi to DP! :fire::fire:
 ---
 <br/>
 
-# Dynamic Programming :rocket::rocket:
+
 
 ### Definition : :orange_book:
 ```
