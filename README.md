@@ -507,3 +507,19 @@ _**Problem Statement:** Given a string  **s**, find the minimum number of insert
 #### Its Okay ! Try Again  :muscle: :angel:
 
 ---
+
+## Day - 25 :blue_book:
+### Solved: Matrix Chain Multiplication (Recursive):pushpin: :pushpin:
+
+_**Problem Statement:** Given an array p[] which represents the chain of matrices such that the ith matrix Ai is of dimension p[i-1] x p[i]. We need to write a function that should return the minimum number of multiplications needed to multiply the chain._ 
+
+**Optimal Substructure Solution:**  
+In this approach, we can place parenthesis at all possible places and then calculate the cost, and finally, we can find the minimum value. _**For example, if the given chain is of 4 matrices. let the chain be ABCD, then there are 3 ways to solve: (A)(BCD), (AB)(CD), and (ABC)(D). So when we place a set of parentheses, we divide the problem into subproblems of smaller size. Therefore, the problem has optimal substructure property and can be easily solved using recursion. **_
+```diff
+! solved Matrix Chain Multiplication (Recursive).
+```
+
+  
+#### If you avoid difficult things, great things will avoid you :dizzy: :green_heart:
+
+---
