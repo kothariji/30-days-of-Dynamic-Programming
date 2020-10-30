@@ -523,3 +523,20 @@ In this approach, we can place parenthesis at all possible places and then calcu
 #### If you avoid difficult things, great things will avoid you :dizzy: :green_heart:
 
 ---
+
+## Day - 256:green_book:
+### Solved: Matrix Chain Multiplication (Memoisation):pushpin: :pushpin:
+
+_**Problem Statement:** Given an array p[] which represents the chain of matrices such that the ith matrix Ai is of dimension p[i-1] x p[i]. We need to write a function that should return the minimum number of multiplications needed to multiply the chain._ 
+
+Just 4 more lines of code....and 💥💥💥 now your code is Memoised. :heart:
+
+```diff
++ solved Matrix Chain Multiplication (Memoisation).
+```
+
+  
+#### Those Who Cannot Remember the Past are Condemned to Repeat It :laughing: :laughing: ~ Dynamic Programming :dizzy:
+
+---
+
