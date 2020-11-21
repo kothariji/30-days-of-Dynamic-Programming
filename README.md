@@ -522,7 +522,7 @@ In this approach, we can place parenthesis at all possible places and then calcu
 
 ---
 
-## Day - 256:green_book:
+## Day - 26:green_book:
 ### Solved: Matrix Chain Multiplication (Memoisation):pushpin: :pushpin:
 
 _**Problem Statement:** Given an array p[] which represents the chain of matrices such that the ith matrix Ai is of dimension p[i-1] x p[i]. We need to write a function that should return the minimum number of multiplications needed to multiply the chain._ 
