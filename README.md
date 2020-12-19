@@ -28,7 +28,7 @@ _In this problem we are given an empty bag with its maximum weight holding capac
 ---
 
 ## Day - 2 :green_book:
-### Memosisation: Top - Down Approach :pushpin::pushpin:
+### Memoiation: Top - Down Approach :pushpin::pushpin:
 _It is an **optimization technique** used to cache the results of subproblems so that we can use that results later on if required. **Memoization** ensures that a method doesn't run for the inputs whose results are previously calculated._
 
 The dimensions of the memoization array/table depend upon variables.
