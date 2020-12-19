@@ -19,7 +19,7 @@ _In this problem we are given an empty bag with its maximum weight holding capac
 - ***0/1 Knapsack*** - It is a classical DP problem. Many beginner-level problems are a variation of this problem. In this, we have only had two choices, either we include the item in Knapsack or we don't.
 
 - ***Unbounded Knapsack*** - It is similar to 0/1 Knapsack but in this, we can include the same item multiple numbers of times.
-
+tutorial link--https://www.youtube.com/watch?v=l02UxPYRmCQ&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=2
 
 ```diff
 ! solved a classical knapsack problem using only recursion.
@@ -53,7 +53,8 @@ But when the performance is measured at() function is 3.1 times faster then subs
 </pre>
 <b> This costed me 29 submissions :persevere: :laughing:</b>
 
-
+tutorial link -- https://www.youtube.com/watch?v=kvyShbFVaY8&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=3
+tutorial link -- https://www.youtube.com/watch?v=fJbIuhs24zQ&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=4
 ---
 ## Day - 3 :ledger:
 ### 1.  Tabulation:  Bottom-Up Approach :pushpin::pushpin:
@@ -87,6 +88,7 @@ _It is one of the most preferable methods in dynamic programming. It is faster t
 <b>Important Tip</b> -  The bottom-up approach is preferred over memoization because in the memoization technique 
 we might get stack overflow on doing various recursive calls for large data.
 </pre>
+tutorial link -- https://www.youtube.com/watch?v=ntCGbPMeqgg&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=5
 
 #### Though it's a rare condition. :sweat_smile::sweat_smile:
 ---
@@ -103,7 +105,8 @@ _It is a variation of the knapsack problem in which we are given an array of non
  SPOJ |[PARTY - Party Schedule](https://www.spoj.com/problems/PARTY/) | [View Solution](./DAY-04/PARTY-Party_Schedule(SPOJ).cpp) | Easy |||
  GEEKSFORGEEKS |[Subset Sum Problem](https://practice.geeksforgeeks.org/problems/subset-sum-problem2014/1) | [View Solution](./DAY-04/Subset_Sum_Problem(GEEKSFORGEEKS).cpp) | Medium |||
   LEETCODE |[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [View Solution](./DAY-04/Partition_Equal_Subset_Sum(LEETCODE).cpp) | Medium |||
-
+tutorial link --https://www.youtube.com/watch?v=_gPcYovP7wc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=7
+tutorial link -- https://www.youtube.com/watch?v=UmMh7xp07kY&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=8
 #### Finally DP started showing it's colors. :yellow_heart::blue_heart::purple_heart::green_heart::heart:
 
 ---
@@ -118,13 +121,14 @@ _It is a slight variation of the *Subset Sum Problem* in which we are given an a
 |  Platform    | Title           |  Solution       | Difficulty    |
 |--------------|---------------- | --------------- |---------------|
  GEEKSFORGEEKS |[Perfect Sum Problem](https://practice.geeksforgeeks.org/problems/perfect-sum-problem5633/1) | [View Solution](./DAY-05/Perfect_Sum_Problem(GEEKSFORGEEKS).cpp) | Medium |||
+ tutorial link -- https://www.youtube.com/watch?v=F7wqWbqYn9g&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=9
 #### :walking: “I walk slowly, but never backwards.” :walking: - — Abraham Lincoln :pray: :pray:
 
 ---
 ## Day - 6  :orange_book:
 ### Solved: Minimum Sum Partition Problem :pushpin::pushpin:
 _Again its a variation of the **Subset Sum Problem**. The problem statement states that we are given an array with non-negative integers and our task is to divide the elements of that array into two subsets such that the absolute difference between their sums is **minimum.**_
-
+tutorial link -- https://www.youtube.com/watch?v=-GtpxG6l_Mc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=10
 ```diff
 + solved the subset sum problem
 ```
@@ -139,6 +143,7 @@ _Again its a variation of the **Subset Sum Problem**. The problem statement stat
 ## Day - 7  :blue_book:
 ### Solved: Count of Subsets with required difference :pushpin::pushpin:
 _This is a variation of **Minimum Sum Partition Problem interesting problem**. In this, we are given an array with non-negative integers and our task is to divide the elements of that array into two subsets such that the absolute difference between their sums equals  **required difference.**_
+tutorial link -- https://www.youtube.com/watch?v=ot_XBHyqpFc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=11
 ##### Two equations to solve the problem are:
 ```cpp
  s1 = sum of 1st subset
@@ -154,6 +159,7 @@ _This is a variation of **Minimum Sum Partition Problem interesting problem**. I
  s1 = (range + S)/2
 ```
 ##### Target sum - It's an awesome problem. Must try:- https://leetcode.com/problems/target-sum/
+tutorial link -- https://www.youtube.com/watch?v=Hw6Ygp3JBYw&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=12
 ```diff
 - solved count of subsets with given difference
 ```
@@ -169,6 +175,7 @@ _This is a variation of **Minimum Sum Partition Problem interesting problem**. I
 ### Solved: Unbounded Knapsack:pushpin::pushpin:
 _**Unbounded Knapsack Problems** are slightly different from **0/1 Knapsack Problems**. In this, we can include the same item multiple numbers of times inside the knapsack and our aim is to just maximize the profit._ 
 ##### We just need to change one condition:
+tutorial link -- https://www.youtube.com/watch?v=aycn9KO8_Ls&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=13
 ```cpp
 //0-1 Knapsack
 if(weight[i-1] <= j)
@@ -180,6 +187,7 @@ dp[i][j] = max((value[i-1] + dp[i][j-weight[i-1]]), dp[i-1][j]);
 ```
 ```diff
 @@ solved Unbounded Knapsack Problem @@
+
 ```
 ### Problem solved
 |  Platform    | Title           |  Solution       | Difficulty    |
@@ -193,6 +201,7 @@ dp[i][j] = max((value[i-1] + dp[i][j-weight[i-1]]), dp[i-1][j]);
 ## Day - 9  :ledger:
 ### Solved: Rod Cutting Problem:pushpin::pushpin:
 _**Problem Statement:** Given a rod of length **n** and an array of prices that contains prices of all pieces of size ranging from **1 to  n**. Determine the maximum value obtainable by cutting up the rod and selling the pieces._ 
+tutorial link  -- https://www.youtube.com/watch?v=SZqAQLjDsag&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=14
 
 ```diff
 ! solved Rod Cutting Problem
@@ -208,7 +217,9 @@ _**Problem Statement:** Given a rod of length **n** and an array of prices that 
 ## Day - 10  :closed_book:
 ### Solved: Coin Change Problem:moneybag: :moneybag:
 _**Problem Statement:** You are given a value N and array of coins. You need to find out the number of ways in which you can get value N from that coins. There is infinite supply of coins.(Unbounded Knapsack :wink:)_ 
+tutorial link -- https://www.youtube.com/watch?v=I4UR2T6Ro3w&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=15
 
+tutorial link -- https://www.youtube.com/watch?v=I-l6PBeERuc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=16
 ```diff
 + solved Rod Cutting Problem
 ```
