@@ -19,11 +19,13 @@ _In this problem we are given an empty bag with its maximum weight holding capac
 - ***0/1 Knapsack*** - It is a classical DP problem. Many beginner-level problems are a variation of this problem. In this, we have only had two choices, either we include the item in Knapsack or we don't.
 
 - ***Unbounded Knapsack*** - It is similar to 0/1 Knapsack but in this, we can include the same item multiple numbers of times.
-tutorial link--https://www.youtube.com/watch?v=l02UxPYRmCQ&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=2
+
 
 ```diff
 ! solved a classical knapsack problem using only recursion.
 ```
+##### 🎥Tutorial Link - https://www.youtube.com/watch?v=l02UxPYRmCQ&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=2
+
 #### It all started with Day-1 :fire::fire:
 ---
 
@@ -51,10 +53,12 @@ If in recursive function:
 <b>Important Tip</b> -  std::vector's at() function is similar to subscript operator [ ].
 But when the performance is measured at() function is 3.1 times faster then subscript operator [ ]. 
 </pre>
+
+##### 🎥Tutorial Link - https://www.youtube.com/watch?v=kvyShbFVaY8&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=3
+##### 🎥Tutorial Link -  https://www.youtube.com/watch?v=fJbIuhs24zQ&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=4
+
 <b> This costed me 29 submissions :persevere: :laughing:</b>
 
-tutorial link -- https://www.youtube.com/watch?v=kvyShbFVaY8&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=3
-tutorial link -- https://www.youtube.com/watch?v=fJbIuhs24zQ&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=4
 ---
 ## Day - 3 :ledger:
 ### 1.  Tabulation:  Bottom-Up Approach :pushpin::pushpin:
@@ -88,7 +92,9 @@ _It is one of the most preferable methods in dynamic programming. It is faster t
 <b>Important Tip</b> -  The bottom-up approach is preferred over memoization because in the memoization technique 
 we might get stack overflow on doing various recursive calls for large data.
 </pre>
-tutorial link -- https://www.youtube.com/watch?v=ntCGbPMeqgg&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=5
+
+##### 🎥Tutorial Link -  https://www.youtube.com/watch?v=ntCGbPMeqgg&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=5
+
 
 #### Though it's a rare condition. :sweat_smile::sweat_smile:
 ---
@@ -105,8 +111,10 @@ _It is a variation of the knapsack problem in which we are given an array of non
  SPOJ |[PARTY - Party Schedule](https://www.spoj.com/problems/PARTY/) | [View Solution](./DAY-04/PARTY-Party_Schedule(SPOJ).cpp) | Easy |||
  GEEKSFORGEEKS |[Subset Sum Problem](https://practice.geeksforgeeks.org/problems/subset-sum-problem2014/1) | [View Solution](./DAY-04/Subset_Sum_Problem(GEEKSFORGEEKS).cpp) | Medium |||
   LEETCODE |[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [View Solution](./DAY-04/Partition_Equal_Subset_Sum(LEETCODE).cpp) | Medium |||
-tutorial link --https://www.youtube.com/watch?v=_gPcYovP7wc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=7
-tutorial link -- https://www.youtube.com/watch?v=UmMh7xp07kY&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=8
+
+##### 🎥Tutorial Link -  https://www.youtube.com/watch?v=_gPcYovP7wc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=7
+##### 🎥Tutorial Link -  https://www.youtube.com/watch?v=_gPcYovP7wc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=8
+
 #### Finally DP started showing it's colors. :yellow_heart::blue_heart::purple_heart::green_heart::heart:
 
 ---
