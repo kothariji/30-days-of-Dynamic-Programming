@@ -129,14 +129,15 @@ _It is a slight variation of the *Subset Sum Problem* in which we are given an a
 |  Platform    | Title           |  Solution       | Difficulty    |
 |--------------|---------------- | --------------- |---------------|
  GEEKSFORGEEKS |[Perfect Sum Problem](https://practice.geeksforgeeks.org/problems/perfect-sum-problem5633/1) | [View Solution](./DAY-05/Perfect_Sum_Problem(GEEKSFORGEEKS).cpp) | Medium |||
- tutorial link -- https://www.youtube.com/watch?v=F7wqWbqYn9g&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=9
+
+##### 🎥Tutorial Link -  https://www.youtube.com/watch?v=_gPcYovP7wc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=9
 #### :walking: “I walk slowly, but never backwards.” :walking: - — Abraham Lincoln :pray: :pray:
 
 ---
 ## Day - 6  :orange_book:
 ### Solved: Minimum Sum Partition Problem :pushpin::pushpin:
 _Again its a variation of the **Subset Sum Problem**. The problem statement states that we are given an array with non-negative integers and our task is to divide the elements of that array into two subsets such that the absolute difference between their sums is **minimum.**_
-tutorial link -- https://www.youtube.com/watch?v=-GtpxG6l_Mc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=10
+
 ```diff
 + solved the subset sum problem
 ```
@@ -144,6 +145,7 @@ tutorial link -- https://www.youtube.com/watch?v=-GtpxG6l_Mc&list=PL_z_8CaSLPWek
 |  Platform    | Title           |  Solution       | Difficulty    |
 |--------------|---------------- | --------------- |---------------|
  GEEKSFORGEEKS |[Minimum sum partition](https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1) | [View Solution](./DAY-06/Minimum_sum_partition(GEEKSFORGEEKS).cpp) | Hard |||
+##### 🎥Tutorial Link -  https://www.youtube.com/watch?v=_gPcYovP7wc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=10
 #### Some days are harder than others :confounded: :triangular_flag_on_post: :relieved:
 
 
@@ -151,7 +153,7 @@ tutorial link -- https://www.youtube.com/watch?v=-GtpxG6l_Mc&list=PL_z_8CaSLPWek
 ## Day - 7  :blue_book:
 ### Solved: Count of Subsets with required difference :pushpin::pushpin:
 _This is a variation of **Minimum Sum Partition Problem interesting problem**. In this, we are given an array with non-negative integers and our task is to divide the elements of that array into two subsets such that the absolute difference between their sums equals  **required difference.**_
-tutorial link -- https://www.youtube.com/watch?v=ot_XBHyqpFc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=11
+
 ##### Two equations to solve the problem are:
 ```cpp
  s1 = sum of 1st subset
@@ -167,23 +169,25 @@ tutorial link -- https://www.youtube.com/watch?v=ot_XBHyqpFc&list=PL_z_8CaSLPWek
  s1 = (range + S)/2
 ```
 ##### Target sum - It's an awesome problem. Must try:- https://leetcode.com/problems/target-sum/
-tutorial link -- https://www.youtube.com/watch?v=Hw6Ygp3JBYw&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=12
-```diff
-- solved count of subsets with given difference
-```
+
 ### Problem solved
 |  Platform    | Title           |  Solution       | Difficulty    |
 |--------------|---------------- | --------------- |---------------|
  INTERVIEW BIT |[Minimum Difference Subsets!](https://www.interviewbit.com/problems/minimum-difference-subsets/) | [View Solution](./DAY-07/Minimum_Difference_Subsets!(INTERVIEWBIT).cpp) | Hard |||
   LEETCODE |[Target Sum :rocket:](https://leetcode.com/problems/target-sum/) | [View Solution](./DAY-07/Target_Sum(LEETCODE).cpp) | Hard |||
   
+  ```diff
+- solved count of subsets with given difference
+```
+  ##### 🎥Tutorial Link -  https://www.youtube.com/watch?v=_gPcYovP7wc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=11
+  ##### 🎥Tutorial Link -  https://www.youtube.com/watch?v=_gPcYovP7wc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=12
 ####  :yellow_heart:  7-Days Streak. :blue_heart: 7-Days of CP.  :purple_heart: 7-Days of DP :green_heart: 7-Days of OP :heart:
 ---
 ## Day - 8  :green_book:
 ### Solved: Unbounded Knapsack:pushpin::pushpin:
 _**Unbounded Knapsack Problems** are slightly different from **0/1 Knapsack Problems**. In this, we can include the same item multiple numbers of times inside the knapsack and our aim is to just maximize the profit._ 
 ##### We just need to change one condition:
-tutorial link -- https://www.youtube.com/watch?v=aycn9KO8_Ls&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=13
+
 ```cpp
 //0-1 Knapsack
 if(weight[i-1] <= j)
@@ -193,15 +197,17 @@ dp[i][j] = max((value[i-1] + dp[i-1][j-weight[i-1]]), dp[i-1][j]);
 if(weight[i-1] <= j)
 dp[i][j] = max((value[i-1] + dp[i][j-weight[i-1]]), dp[i-1][j]);
 ```
-```diff
-@@ solved Unbounded Knapsack Problem @@
 
-```
 ### Problem solved
 |  Platform    | Title           |  Solution       | Difficulty    |
 |--------------|---------------- | --------------- |---------------|
  HACKERRANK |[Knapsack](https://www.hackerrank.com/challenges/unbounded-knapsack/problem) | [View Solution](./DAY-08/Knapsack(HACKERRANK).cpp) | Medium |||
   GEEKSFORGEEKS |[Knapsack with Duplicate Items](https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1) | [View Solution](./DAY-08/Knapsack_with_Duplicate_Items(GEEKSFORGEEKS).cpp) | Medium |||
+```diff
+@@ solved Unbounded Knapsack Problem @@
+```
+
+##### 🎥Tutorial Link -  https://www.youtube.com/watch?v=_gPcYovP7wc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=13
   
 ####  Visited HackerRank after so Long ! Nostalgic :dizzy: :smile:
 ---
@@ -209,34 +215,38 @@ dp[i][j] = max((value[i-1] + dp[i][j-weight[i-1]]), dp[i-1][j]);
 ## Day - 9  :ledger:
 ### Solved: Rod Cutting Problem:pushpin::pushpin:
 _**Problem Statement:** Given a rod of length **n** and an array of prices that contains prices of all pieces of size ranging from **1 to  n**. Determine the maximum value obtainable by cutting up the rod and selling the pieces._ 
-tutorial link  -- https://www.youtube.com/watch?v=SZqAQLjDsag&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=14
 
-```diff
-! solved Rod Cutting Problem
-```
 ### Problem solved
 |  Platform    | Title           |  Solution       | Difficulty    |
 |--------------|---------------- | --------------- |---------------|
  GEEKSFORGEEKS |[Reach a given score](https://practice.geeksforgeeks.org/problems/reach-a-given-score/0) | [View Solution](./DAY-09/Reach_a_given_score(GEEKSFORGEEKS).cpp) | Easy |||
   GEEKSFORGEEKS |[Rod Cutting](https://practice.geeksforgeeks.org/problems/rod-cutting/0/?category) | [View Solution](./DAY-09/Rod_Cutting(GEEKSFORGEEKS).cpp) | Easy |||
+
+```diff
+! solved Rod Cutting Problem
+```
+
+##### 🎥Tutorial Link -  https://www.youtube.com/watch?v=_gPcYovP7wc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=14
   
 ####  Set Goals.  :star2:  Say Prayers. :pray:  Work Hard. :muscle:
 ---
 ## Day - 10  :closed_book:
 ### Solved: Coin Change Problem:moneybag: :moneybag:
 _**Problem Statement:** You are given a value N and array of coins. You need to find out the number of ways in which you can get value N from that coins. There is infinite supply of coins.(Unbounded Knapsack :wink:)_ 
-tutorial link -- https://www.youtube.com/watch?v=I4UR2T6Ro3w&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=15
 
-tutorial link -- https://www.youtube.com/watch?v=I-l6PBeERuc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=16
-```diff
-+ solved Rod Cutting Problem
-```
 ### Problem solved
 |  Platform    | Title           |  Solution       | Difficulty    |
 |--------------|---------------- | --------------- |---------------|
  GEEKSFORGEEKS |[Coin Change](https://practice.geeksforgeeks.org/problems/coin-change2448/1) | [View Solution](./DAY-10/Coin_Change(GEEKSFORGEEKS).cpp) | Medium |||
   HACKERRANK |[The Coin Change Problem](https://www.hackerrank.com/challenges/coin-change/problem) | [View Solution](./DAY-10/The_Coin_Change_Problem(HACKERRANK).cpp) | Medium |||
   LEETCODE |[Coin Change 2](https://leetcode.com/problems/coin-change-2/) | [View Solution](./DAY-10/Coin_Change_2(LEETCODE).cpp) | Medium |||
+
+```diff
++ solved Rod Cutting Problem
+```
+##### 🎥Tutorial Link -  https://www.youtube.com/watch?v=_gPcYovP7wc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=15
+##### 🎥Tutorial Link -  https://www.youtube.com/watch?v=_gPcYovP7wc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=16
+
   
 #### Prove Them Wrong :wink: :wink:
 
